@@ -342,18 +342,19 @@ body {
   left: 0px;
   font-size: 30px;
 }
-.learn-more{
+.learn-more {
   position: relative;
   top:680px;
   left: 780px;
 
 }
-.learn-button{
+.learn-button {
   padding: 20px 60px;
   font-size: 20px;
   border: none;
   border-radius: 10px;
-  color:#0B4176
+  color:#0B4176;
+  text-decoration: none;
 }
 .learn-button:hover{
   background-color: #0B4176;
