@@ -68,7 +68,7 @@ aside>nav>hr{
 
 /* Welcome and Search Bar */
 header>section{
-  margin-left: 11.8rem;
+  margin-left: 14rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -113,7 +113,7 @@ header>section>.welcome-text{
   display: flex;
   flex-direction: column;
   gap: 3rem;
-  text-align: center; 
+  text-align: center;
   align-items: center;
 }
 
@@ -150,7 +150,7 @@ header>section>.welcome-text{
 /* Main Section */
 main{
   width: 65%;
-  margin-left: 11.8rem;
+  margin-left: 15rem;
   padding: 2rem;
   background-color: #efefd0a6;
   display: flex;
@@ -182,10 +182,11 @@ main{
 
 .picks{
   display: flex;
+  justify-content: center;
   gap: 2.5rem;
 }
 
-.pick-preview div{  
+.pick-preview div{
  float: left;
 }
 
