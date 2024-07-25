@@ -8,8 +8,6 @@
 
 
 
-
-
 /* footer styling*/
 
 
@@ -204,6 +202,199 @@ flex-direction: column;
  height: 3.5rem;
  padding: 1rem 0.5rem;
  margin: 0.8rem;
+}
+@media (max-width:1044px){
+  #item-image img {
+    width: 15rem;
+    height: 16rem;
+  }
+}
+
+@media (max-width:768px){
+  #item-image img {
+    width: 90%;
+    height: 12rem;
+  }
+  #continue-heading{
+    font-size: 1rem;
+    line-height: 38.09px;
+    }
+    #continue-body{
+      height: 19rem;
+      gap: 0.2rem;
+    }
+    #item-text{
+      font-size: 0.8rem;
+      line-height: 38.09px;
+    }
+    #item-next{
+      justify-content: space-between;
+      padding: 0.5rem 1rem 0rem 1rem;
+    }
+    #not-now{
+      font-size: 0.5rem;
+      line-height: 16.2px;
+      text-decoration: underline;
+    }
+    #continue{
+      font-size: 0.5rem;
+      line-height: 16.36px;
+     border-radius: 4rem;
+     width: 4rem;
+     height: 1.6rem;
+     padding: 0.3rem 0rem;
+    }
+    #footer {
+      height: auto;
+      display:flex;
+      flex-direction: column;
+      width: 100vw;
+      padding-top: 20px;
+      padding-bottom: 3rem;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+
+    #footer-top {
+      font-size: 2vw;
+      line-height: 12.2px;
+      text-align: left;
+      font-weight: 600;
+      padding-bottom: 6px;
+
+    }
+
+    #footer-pages div {
+       font-size: 12px;
+       line-height: 12.36px;
+
+     }
+
+     #contact div {
+       font-size: 12px;
+       line-height: 12.36px;
+     }
+     #contact img{
+       width: 16px;
+       height: 16px;
+       margin-top: 4px;
+     }
+     #contact-content{
+       gap: 8px;
+     }
+     #about div {
+       font-size: 12px;
+       line-height: 12.36px;
+     }
+     #blog div {
+       font-size: 12px;
+       line-height: 12.36px;
+     }
+     #terms div {
+       font-size: 12px;
+       line-height: 12.36px;
+     }
+     #genre{
+      font-weight: 400;
+      font-size: 0.5rem;
+      line-height: 12.36px;
+     border-radius: 0.25rem;
+     width: 6.5rem;
+     height: 1.6rem;
+     padding: 0.5rem 0.25rem;
+     margin: 0.4rem;
+    }
+
+}
+
+@media (max-width: 480px){
+  #item-image img {
+    height: 5rem;
+  }
+  #continue-heading{
+    font-size: 0.7rem;
+    line-height: 28.09px;
+    }
+    #continue-body{
+      height: 11rem;
+      gap: 0.1rem;
+
+    }
+    #item-text{
+      font-size: 0.6rem;
+      line-height: 28.09px;
+    }
+    #item-next{
+      justify-content: space-between;
+      padding: 0.3rem 0.7rem 0rem 0.7rem;
+    }
+    #not-now{
+      font-size: 0.3rem;
+      line-height: 14.2px;
+      text-decoration: underline;
+    }
+    #continue{
+      font-size: 0.4rem;
+      line-height: 16.36px;
+      text-align: center;
+     border-radius: 4rem;
+     width: 3rem;
+     height: 0.9rem;
+     padding: 0.02rem;
+    }
+    #footer-pages div {
+      font-size: 8px;
+      line-height: 8.36px;
+
+    }
+
+    #contact div {
+      font-size: 8px;
+      line-height: 6.36px;
+    }
+    #contact img{
+      width: 12px;
+      height: 12px;
+      margin-top: 4px;
+    }
+    #contact-content{
+      gap: 2px;
+    }
+    #about div {
+      font-size: 8px;
+      line-height: 8.36px;
+    }
+    #blog div {
+      font-size: 8px;
+      line-height: 8.36px;
+    }
+    #terms div {
+      font-size: 8px;
+      line-height: 8.36px;
+    }
+    .body{
+
+      padding: 0.5rem 2rem;
+    }
+    #genre{
+      font-weight: 400;
+      font-size: 0.3rem;
+      line-height: 8.36px;
+     border-radius: 0.15rem;
+     width: 4rem;
+     height: 1rem;
+     padding: 0.3rem 0.25rem;
+     margin: 0.2rem;
+    }
+    #footer {
+
+      padding-top: 12px;
+      padding-bottom: 2rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+
+
 }
 
 

@@ -1,109 +1,109 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
-
-* {
-  margin: 0;
+*{
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
+}
+body{
   font-family: "inter", sans-serif;
 }
 
-.flex {
+.logo {
   display: flex;
-  align-items: center;
+  flex-direction: row;
+  padding: 20px 0px 0px 25px;
 }
 
-.container {
+.logo p{
+  margin-left: 0.6rem;
+  color: #0e3d6d;
+  white-space: nowrap;
+  font-size: 2.2rem;
+  font-weight: 600;
+  align-content: center;
+}
+
+.container{
   padding: 0 15px;
   min-height: 100vh;
   justify-content: center;
-  background-image: url("../images/bg.svg");
-}
-
-.signup-page {
-  justify-content: space-between;
-  max-width: 1000px;
-  width: 100%;
-}
-
-.signup-page .sigup-logo {
-  margin-bottom: 90px;
+  align-items: center;
+  background-size: contain;
   display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.body-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100rem;
+  width: 100%;
+  margin: 60px 0;
   flex-direction: row;
 }
 
-.sigup-logo p {
-    font-size: 2.75rem;
-    color: #FFFFFF;
-    white-space: nowrap;
-    align-content: center;
-    margin-left: 15px;
-    font-weight: 600;
-  }
+.signin-text h1{
+  color: rgb(24, 119, 242);
+  line-height: 1.25rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom:0.9rem ;
+}
 
-.form-text h4 {
-    color: #1877f2;
-    font-size: 1.5rem;
-    line-height: 1.253rem;
-    font-weight: 700;
-  }
+.signin-text p{
+  font-size: 1rem;
+  line-height: 1.21rem;
+  font-weight: 400;
+  margin-bottom:0.9rem ;
+}
 
-  .form-text p {
-    font-size: 1rem;
-    line-height: 1.21rem;
-    font-weight: 400;
-  }
+.signin-text span {
+  color: #1877f2;
+  font-weight:500;
+  font-size: 0.875rem;
+}
 
-  .form-text a {
-    color: #1877f2;
-    font-size: 0.875rem;
-  }
-
-  .form-text:hover a {
-    text-decoration: underline;
-  }
+.signin-text:hover span {
+  text-decoration: underline;
+}
 
 form {
   display: flex;
   flex-direction: column;
   background: #fff;
-  border-radius: 20px;
+  border-radius: 0px 10px 10px 0px;
   padding: 20px;
-  margin: 60px 0px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
-  max-width: 453px;
+  max-width: 353px;
   width: 100%;
 }
 
-form input {
-  height: 50px;
-  width: 100%;
-  background-color: #F4F6F9;
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  margin-bottom: 15px;
-  margin-top: 5px;
+.form-content input {
+  background-color:#F4F6F9;
   font-size: 1rem;
-  padding: 0 14px;
+  margin-top: 0.3rem;
+  margin-bottom: 0.9rem;
+  padding:0 0.6rem;
+  border-radius: 0.6rem;
+  border: 1px solid #ccc;
+  height: 60px;
+  width: 100%;
 }
 
-form input:focus {
+.form-content input:focus {
   outline: none;
   border-color: #1877f2;
 }
 
-::placeholder {
-  color: #777;
-  font-size: 1.063rem;
-}
-
-.link {
+.help {
   display: flex;
   flex-direction: column;
   text-align: center;
   gap: 15px;
 }
 
-.link .signup {
+.help .signin {
   border: none;
   outline: none;
   cursor: pointer;
@@ -116,77 +116,24 @@ form input:focus {
   transition: 0.2s ease;
 }
 
-.link .signup:hover {
+.help .signin:hover {
   background: #fff;
   color: #0B4176;
   border: 1px solid #0B4176;
 }
-
 form a {
   text-decoration: none;
 }
 
-.link .forgot {
+.help .get-help {
   color: #1877f2;
   font-size: 0.875rem;
 }
 
-.link .forgot:hover {
+.help .get-help:hover {
   text-decoration: underline;
 }
-
-hr {
-  border: none;
-  height: 1px;
-  background-color: #ccc;
-  margin-bottom: 20px;
-  margin-top: 20px;
-}
-
-.signup-icons {
-  margin-top: 25px;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.signup-icons img {
-  margin: 0px 10px ;
-}
-
-@media (max-width: 900px) {
-  .signup-page .text {
-    margin-bottom: 30px;
-  }
-}
-
-@media (max-width: 460px) {
-  .signup-page h1 {
-    font-size: 3.5rem;
-  }
-
-  .signup-page p {
-    font-size: 1.3rem;
-  }
-  .sigup-logo img {
-   width: 20px;
-  }
-  .sigup-logo p {
-    margin: 15px;
-    font-weight: 400;
-    font-size: 1rem;
-  }
-
-  form {
-    margin: 0 auto;
-  }
-}
-
-
-
-
 /* Footer style */
-
-
 .footer {
   display: flex;
   flex-direction: column;
@@ -194,7 +141,7 @@ hr {
   color: #FFFFFF;
   font-family: 'Inter', sans-serif;
   background-color: #0B4176;
-  padding: 7.40rem; /* 119px */
+  padding: 7.40rem;
 }
 
 .footer-head-line {
@@ -205,8 +152,8 @@ hr {
 
 .footer-down {
   display: flex;
-  font-size: 1.25rem; /* 20px */
-  line-height: 1.5125rem; /* 24.2px */
+  font-size: 1.25rem;
+  line-height: 1.5125rem;
   text-align: left;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -254,52 +201,3 @@ hr {
   display: inline-block;
   padding-left: 5px;
 }
-
-/* Media queries for responsiveness */
-@media (max-width: 768px) {
-  .footer {
-    padding: 4rem; /* Adjust padding for smaller screens */
-  }
-
-  .footer-down {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .footer-pages {
-    margin-bottom: 20px;
-  }
-
-  .footer-head-line {
-    font-size: 20px; /* Adjust font size for smaller screens */
-  }
-
-  .footer-pages li {
-    font-size: 0.875rem; /* 14px */
-  }
-
-  .fa-brands,
-  .fa-regular {
-    font-size: 1rem; /* Adjust icon size for smaller screens */
-  }
-}
-
-@media (max-width: 480px) {
-  .footer {
-    padding: 2rem; /* Adjust padding for mobile screens */
-  }
-
-  .footer-head-line {
-    font-size: 1.2rem; /* Adjust font size for mobile screens */
-  }
-
-  .footer-pages li {
-    font-size: 0.75rem; /* 12px */
-  }
-
-  .fa-brands,
-  .fa-regular {
-    font-size: 0.8rem; /* Adjust icon size for mobile screens */
-  }
-}
-
