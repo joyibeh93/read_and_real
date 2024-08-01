@@ -1,0 +1,125 @@
+/* Media queries for responsiveness */
+@media screen and (max-width: 992px) {
+
+    .footer {
+        padding: 2rem; /* Adjust padding for mobile screens */
+      }
+    
+      .footer-down {
+          display: flex;
+          flex-direction: row;
+          gap: 1rem;
+          justify-content: space-between;
+      }
+      
+      .footer-head-line {
+        font-size: 1.2rem; /* Adjust font size for mobile screens */
+      }
+    
+      .footer-pages li {
+        font-size: 0.75rem; /* 12px */
+      }
+  
+    .fa-brands,
+    .fa-regular {
+      font-size: 1rem; /* Adjust icon size for smaller screens */
+    }
+
+  }
+
+
+@media screen and (max-width: 768px) {
+
+    .footer {
+        padding: 2rem; /* Adjust padding for mobile screens */
+      }
+    
+      .footer-down {
+          display: flex;
+          flex-direction: row;
+          gap: 1rem;
+          justify-content: space-between;
+      }
+      
+      .footer-head-line {
+        font-size: 1.2rem; /* Adjust font size for mobile screens */
+      }
+    
+      .footer-pages li {
+        font-size: 0.75rem; /* 12px */
+      }
+  
+    .fa-brands,
+    .fa-regular {
+      font-size: 1rem; /* Adjust icon size for smaller screens */
+    }
+
+}
+  
+
+@media screen and (max-width: 576px) {
+    /* Your CSS rules for screens 576px and smaller */
+    
+    .footer {
+      padding: 2rem; /* Adjust padding for mobile screens */
+    }
+  
+    .footer-down {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        justify-content: space-between;
+    }
+    
+    .footer-head-line {
+      font-size: 1.2rem; /* Adjust font size for mobile screens */
+    }
+  
+    .footer-pages li {
+      font-size: 0.75rem; /* 12px */
+    }
+  
+    .fa-brands,
+    .fa-regular {
+      font-size: 0.8rem; /* Adjust icon size for mobile screens */
+    }
+  
+    .sigup-logo {
+      display: none;
+    }
+}  
+
+
+
+@media screen and (max-width: 480px) {
+    /* Your CSS rules for screens 480px and smaller */
+    
+    .footer {
+      padding: 2rem; /* Adjust padding for mobile screens */
+    }
+  
+    .footer-down {
+        display: flex;
+        flex-direction: row;
+        gap: 3rem;
+        justify-content: flex-start;
+    }
+    
+    .footer-head-line {
+      font-size: 1.2rem; /* Adjust font size for mobile screens */
+    }
+  
+    .footer-pages li {
+      font-size: 0.75rem; 
+    }
+  
+    .fa-brands,
+    .fa-regular {
+      font-size: 0.8rem; /* Adjust icon size for mobile screens */
+    }
+  
+    .sigup-logo {
+      display: none;
+    }
+}
+  

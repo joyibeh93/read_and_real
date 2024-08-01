@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "inter", sans-serif;
+}
+
+.sign-up-logo-header{
+  display: flex;
+  flex-direction: row;
+  padding: 15px 0px 0px 15px;
+}
+
+.sign-up-logo-header p {
+  font-size: 2.75rem;
+  color: #0E2944;
+  white-space: nowrap;
+  align-content: center;
+  margin-left: 15px;
+  font-weight: 600;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  min-height: 100vh;
+  justify-content: center;
+  /* background-image: url("./bg.svg"); */
+}
+
+.signup-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100rem;
+  width: 100%; 
+  margin: 90px 0; 
+  flex-direction: row; 
+}
+
+.sigup-logo-img {
+  width: 370px;
+  height: 663px;
+}
+
+.form-text h4 {
+  color: #1877f2;
+  font-size: 1.5rem;
+  line-height: 1.253rem;
+  font-weight: 700;
+}
+
+.form-text p {
+  font-size: 1rem;
+  line-height: 1.21rem;
+  font-weight: 400;
+}
+
+.form-text a {
+  color: #1877f2;
+  font-size: 0.875rem;
+}
+
+.form-text:hover a {
+  text-decoration: underline;
+}
+
+.download-section {
+  text-align: center;
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  max-width: 453px;
+  width: 100%;
+}
+
+.download-section h4 {
+  color: #1877f2;
+  font-size: 1.5rem;
+  line-height: 1.253rem;
+  font-weight: 700;
+}
+
+.download-section p {
+  font-size: 1rem;
+  line-height: 1.21rem;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.download-button {
+  display: inline-block;
+  background: #0B4176;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: 600;
+  transition: 0.2s ease;
+}
+
+.download-button:hover {
+  background: #fff;
+  color: #0B4176;
+  border: 1px solid #0B4176;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  color: #FFFFFF;
+  font-family: 'Inter', sans-serif;
+  background-color: #0B4176;
+  padding: 7.40rem; /* 119px */
+}
+
+.footer-head-line {
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.footer-down {
+  display: flex;
+  font-size: 1.25rem; /* 20px */
+  line-height: 1.5125rem; /* 24.2px */
+  text-align: left;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-pages {
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+}
+
+.footer-pages li {
+  font-size: 1rem; /* 16px */
+  line-height: 2em; /* 19.36px */
+  text-align: left;
+  font-weight: 400;
+  margin-right: 20px;
+  padding: 5px;
+}
+
+.fa-brands,
+.fa-regular {
+  font-size: 1.5rem;
+}
+
+.fa-envelope {
+  color: rgb(122, 8, 8);
+  display: inline-block;
+  padding-left: 5px;
+}
+
+.fa-whatsapp {
+  color: green;
+}
+
+.fa-facebook {
+  color: #dbe3eb;
+}
+
+.fa-x-twitter {
+  color: black;
+}
+
+.footer-test {
+  display: inline-block;
+  padding-left: 5px;
+}
