@@ -36,10 +36,17 @@ body {
 .download_exe{
   background-color: #0e71d4;;
   border-radius: 10px;
-  width: 250px;
-  margin-top: 20px;
+  width: 450px;
+  margin: 20px 5px;
   padding: 5px;
 
+}
+.download_exea {
+  width: 350px;
+}
+.link-video{
+  display: flex;
+  justify-content: space-between;
 }
 .download_link{
   text-decoration: none;
@@ -50,6 +57,7 @@ body {
   text-align: center;
 
 }
+
 .v331_31 {
   width: 100%;
   height: 8029px;
@@ -253,27 +261,17 @@ body {
 }
 
 .v332_54 {
-  width: 488px;
-  height: 507px;
-  background: rgba(255, 255, 255, 1);
-  opacity: 1;
+  /* width: 488px;
+  height: 507px; */
   position: absolute;
   top: 130px;
   left: 91px;
-  border-top-left-radius: 100px;
-  border-bottom-right-radius: 100px;
   overflow: hidden;
 }
 
 .v332_66 {
   width: 86px;
   height: 20px;
-  background: url("../images/v332_66.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  margin: 13px;
-  opacity: 1;
   position: absolute;
   top: 549px;
   left: 228px;
@@ -316,11 +314,6 @@ body {
 .v448_2 {
   width: 470px;
   height: 480px;
-  background: url("../images/v448_2.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
   position: absolute;
   top: 48px;
   left: 45px;
