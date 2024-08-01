@@ -33,6 +33,23 @@ body {
   padding: 12px 17px;
   border: 1px solid #fff;
 }
+.download_exe{
+  background-color: #0e71d4;;
+  border-radius: 10px;
+  width: 250px;
+  margin-top: 20px;
+  padding: 5px;
+
+}
+.download_link{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 10px;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+
+}
 .v331_31 {
   width: 100%;
   height: 8029px;
