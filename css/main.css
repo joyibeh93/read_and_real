@@ -36,13 +36,14 @@ body {
 .download_exe{
   background-color: #0e71d4;;
   border-radius: 10px;
-  width: 450px;
+  width: 420px;
   margin: 20px 5px;
   padding: 5px;
-
+  text-align: center;
 }
 .download_exea {
-  width: 350px;
+  width: 320px;
+  text-align: center;
 }
 .link-video{
   display: flex;
